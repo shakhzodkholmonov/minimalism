@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/nearo-rounded');
+@import url('https://fonts.cdnfonts.com/css/minimal');
+@import url('https://fonts.cdnfonts.com/css/maria-2');
+@import url('https://fonts.cdnfonts.com/css/elronet-monospace');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#dddddd;
+}
+
+header {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #dddddd;
+    height:80px;
+    width: 100%;
+    display: flex;
+    top: -1px;
+    z-index: 101;
+}
+
+.left-header {
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.left-header > h1 {
+    color: #666666;
+    font-family: 'Nearo Rounded', sans-serif
+}
+
+.right-header {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 800px;
+    padding-top: 25px;
+    gap: 20px;
+}
+
+.right-header > i {
+    color: #666666;
+    font-size: 25px;
+}
+
+.right-header > i:hover {
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    padding-top: 100px; 
+    margin-left: 430px;
+    padding: 10px;
+    width: 550px;
+    height: 500px;
+    background-color: #666666;
+    border-radius: 5px;
+}
+ .container > h1{
+    color: #777;
+    font-size: 52px;
+    margin: 28px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 40px;
+    color: #dddddd;
+    font-family: 'ElroNet Monospace', sans-serif;   
+}
+form{
+    padding: 15px;
+    text-align: center;
+}
+
+input{
+    padding: 12px 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    text-align: center;
+    width: 90%;
+    font-size: 16px;
+    transition: border .2s, background-color .2s;
+}
+form .field{
+    background-color: #ECF0F1;
+}
+form .field:focus {
+    border: 2px solid #3498DB;
+}
+form .btn{
+    background-color: #3498DB;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+}
+form .btn:hover,
+form .btn:active {
+    background-color: #1F78B4;
+    border: 2px solid #1F78B4;
+}
+.pass-link{
+    text-align: center;
+}
+.pass-link a:link,
+.pass-link a:visited{
+    font-size: 15px;
+    color: #dddddd;
+}

@@ -1,0 +1,311 @@
+@import url('https://fonts.cdnfonts.com/css/nearo-rounded');
+@import url('https://fonts.cdnfonts.com/css/minimal');
+@import url('https://fonts.cdnfonts.com/css/maria-2');
+@import url('https://fonts.cdnfonts.com/css/elronet-monospace');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#dddddd;
+}
+
+header {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #dddddd;
+    height:80px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: -1px;
+    z-index: 101;
+}
+
+.left-header {
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.left-header > h1 {
+    color: #666666;
+    font-family: 'Nearo Rounded', sans-serif
+}
+
+.right-header {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 800px;
+    padding-top: 25px;
+    gap: 20px;
+}
+
+.right-header > i {
+    color: #666666;
+    font-size: 25px;
+}
+
+.right-header > i:hover {
+    color: rgb(0, 0, 0);
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrapper {
+    background-repeat: no-repeat;
+        max-width: 100%;
+    margin: 0 auto;
+    background-image: url("https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 580px;
+    width: 100%;
+    background-position: center;
+}
+
+.central-texts {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  
+  
+  .central-texts > h1{
+    color: #ffffff;
+    padding-left: 550px;
+    font-size: 50px;
+    font-family: 'Minimal';
+  }
+  
+  
+  .central-texts > h3 {
+    color: #fff;
+    margin-top: 150px;
+    padding-left: 450px;
+    font-family: 'Minimal';
+  }
+
+  .central-button{
+    max-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top:30px;
+    margin-left: 600px;
+    font-family: 'Nearo Rounded', sans-serif;
+}
+
+
+.central-button > .btn{
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    color: #000000;
+    background-color: #fff;
+    text-decoration: none;
+    transition: 0.1s ease;
+    border-radius: 5px;
+
+}
+
+.central-button > .btn:hover{
+    border: 1px solid #dfdfdf;
+    background-color: #dfdfdf;
+    color: black;
+}
+
+.small-text {
+    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    padding-left: 100px;
+    margin-top: 110px;
+  }
+  
+  .small-text > small {
+    padding-left: 440px;
+    font-family: 'ElroNet Monospace', sans-serif;   
+  } 
+
+.information {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-image: url("https://mui.com/static/themes/onepirate/productCurvyLines.png");
+}
+
+.cards {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 70px;
+    gap: 20px;
+    display: flex;
+}
+
+.cards > .card {
+    width: 400px;
+    height: 600px;
+}
+
+.card > i {
+    margin-left: 160px;
+    font-size: 40px;
+    margin-top: 100px;
+    color: #666666;
+}
+
+.card > h2 {
+    margin-left: 130px;
+    color: #666666;
+}
+
+.card > p {
+    font-family: 'Minimal';
+    font-size: 30px;
+    color: #666666;
+}
+
+.middle-text {
+    width: 100%;
+    height: 100px;
+    background-color: #dddddd;
+}
+.middle-text > h1 {
+    color: #666666;
+    margin-top: 40px;
+    margin-left: 440px;
+    font-family:'Nearo Rounded', sans-serif;
+}
+
+section {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+}
+section img {
+	width: 100%;
+}
+section article {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #dddddd;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	mix-blend-mode: lighten;
+}
+section div {
+	background: black;
+	height: 25.3vw;
+}
+section div:nth-of-type(2) {
+	grid-column: 2 / 4;
+}
+
+.support {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-image: url("https://mui.com/static/themes/onepirate/productCurvyLines.png");
+}
+
+.support > h1 {
+    color: #666666;
+    margin-top: 10px;
+    margin-left: 520px;
+    font-family:'Nearo Rounded', sans-serif;
+}
+
+.support-button{
+    max-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top:550px;
+    margin-left: 550px;
+    font-family: 'Nearo Rounded', sans-serif;
+}
+
+.support-button .btn{
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    color: #000000;
+    background-color: #fff;
+    text-decoration: none;
+    transition: 0.1s ease;
+    border-radius: 5px;
+}
+
+.footer-basic {
+    margin-top: 100px;
+    padding:40px 0;
+    background-color:#666666;
+    color:#ffffff;
+  }
+  
+  .footer-basic ul {
+    margin-left:510px;
+    display: flex;
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    font-family: 'Minimal';
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
